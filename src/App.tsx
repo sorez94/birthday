@@ -1,6 +1,4 @@
-import React from 'react';
-import './App.css'; // Ensure App.css is imported
-
+import './App.css';
 function App() {
     return (
         <div className="container">
