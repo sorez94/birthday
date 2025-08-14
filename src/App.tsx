@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css'; // Ensure App.css is imported
 
 function App() {
@@ -15,12 +16,13 @@ function App() {
 
             {/* Birthday Message Box with Name */}
             <div className="card">
-                <div className="name">Anseh Khodkar</div> {/* Name inside the card */}
-                <h1>Happy Birthday!</h1>
+                <div className="name">Aneseh Khodkar</div> {/* Name inside the card */}
+                <h1>Happy Birthday! 🎂🎉</h1>
                 <p>
-                    May your special day be filled with joy, laughter, and everything that makes you happy.
-                    Wishing you a wonderful year ahead filled with love, success, and new adventures.
-                    Enjoy every moment!
+                    On your special day, may you be surrounded by joy, laughter, and everything that brings you happiness. 🎈
+                    I wish you a year ahead filled with love, success, and exciting new adventures. 🌟
+                    May each moment be a celebration of who you are and all the amazing things you’ll achieve. ✨
+                    Enjoy every single second of this beautiful journey! 🌻
                 </p>
             </div>
         </div>
