@@ -10,7 +10,7 @@ function App() {
             />
 
             {/* Status Text Below the Moon */}
-            <p className="moon-status-text">This image shows the moon's status on August 8, 1996.</p>
+            <p className="moon-status-text">This image shows the moon's status on August 7, 1996.</p>
 
             {/* Birthday Message Box with Name */}
             <div className="card">
