@@ -5,7 +5,7 @@ function App() {
             {/* Image for Moon Status */}
             <img
                 src="/moon.png" // Ensure the image path is correct
-                alt="Moon status on August 8, 1996"
+                alt="Moon status on August 7, 1996"
                 className="moon-image"
             />
 
