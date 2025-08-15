@@ -117,12 +117,25 @@ body {
 /* Heading Styling */
 .card h1 {
   font-size: 1.6rem;
-  font-weight: 600; /* Semi-bold weight for the heading */
-  color: #ffffff; /* Black text for the heading */
+  font-weight: 600;
+  color: #ffffff;
   margin-bottom: 1.5rem;
-  animation: fadeIn 2s ease-out;
-  font-family: 'Poppins', Arial, sans-serif; /* Use Poppins font for heading with Arial fallback */
+  animation: pulseText 2s infinite ease-in-out; /* Repeating animation */
+  font-family: 'Poppins', Arial, sans-serif;
 }
+
+/* Pulse Animation */
+@keyframes pulseText {
+  0%, 100% {
+    transform: scale(1);
+    color: #ffffff; /* Normal white */
+  }
+  50% {
+    transform: scale(1.1); /* Slightly bigger */
+    color: #ff69b4; /* Pink highlight at peak */
+  }
+}
+
 
 /* Paragraph Styling */
 .card p {
