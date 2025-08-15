@@ -63,17 +63,40 @@ body {
 
 /* Birthday Card Styling */
 .card {
+  position: relative; /* Needed for absolute positioning of the image */
   background-color: #232222;
-  color: #ffffff; /* Set card text color to dark grey for contrast */
   padding: 2rem;
-  border-radius: 4rem; /* More rounded corners for modern look */
-  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2); /* Larger shadow for depth */
+  padding-top: 4rem; /* Extra space for image */
+  border-radius: 4rem;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 360px;
-  margin: 0 auto; /* Ensures card is centered horizontally */
-  margin-top: 3rem; /* Add space between the card and the top section */
+  margin: 0 auto;
+  margin-top: 3rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
 }
+
+.profile-image {
+  position: absolute;
+  top: -3rem; /* Moves above the card */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white; /* Optional border */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.profile-image:hover {
+  transform: translateX(-50%) scale(1.3); /* Slight zoom */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3); /* Stronger shadow on hover */
+}
+
+
 
 .card:hover {
   transform: translateY(-10px); /* Slight hover effect */
