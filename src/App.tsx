@@ -36,6 +36,9 @@ function App() {
                         May each moment be a celebration of who you are and all the amazing things you’ll achieve. ✨
                         Enjoy every single second of this beautiful journey! 🌻
                     </p>
+                    <p style={{textAlign: 'center'}}>
+                        August 8, 2025
+                    </p>
                 </div>
             </div>
         </div>
